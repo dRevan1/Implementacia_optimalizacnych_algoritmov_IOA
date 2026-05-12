@@ -205,8 +205,7 @@ def find_cycle(i, j, direction, update_coef, t = float('inf')):
             H.append((i, j))
             X[i][j] = min_t
         
-    return cycle_found
-    
+    return cycle_found  
 #-----------------------------------------------------------------------------------------------------------------------------------------
 # tu sa spustí a beží MODI algoritmus - aplikuje sa stĺpcové a riadkové pravidlo a aktualizuje sa riešenie, kým sa spĺňa stĺpcové pravidlo
 #-----------------------------------------------------------------------------------------------------------------------------------------
